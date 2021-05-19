@@ -38,7 +38,7 @@
                     <ViewCell>
                         <StackLayout Padding="10" Orientation="Horizontal">
                             <CheckBox IsChecked="{Binding IsCompleted}" Margin="10,0,0,0"/>
-                            <StackLayout Padding="10">
+                            <StackLayout>
                                 <Label Text="{Binding Text}" 
                                         d:Text="{Binding .}"
                                         LineBreakMode="NoWrap" 
